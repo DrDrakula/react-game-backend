@@ -1,24 +1,4 @@
-# README
+## Super cool game
+[Super cool game](https://github.com/DrDrakula/react-game-frontend) is a 2d game where you avoid ghosts, collect coins, and navigate through a maze. It is written in Javascript and utilizes React. The game itself is rendered on a canvas with a tile map, the links in the Navbar are handled with the React Router.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+The game uses a Rails API Backend. The backend uses the Bcryp and JWT gems to handle authentication, password encryption, and to provide tokens for each User. Users and scores are persisted in a Postgress server API.
